@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex flex-wrap justify-center md:justify-start space-x-6 text-sm text-gray-400">
-              <a href="https://salescentri.com/trust/security-privacy" className="hover:text-sky-400 transition-colors duration-200">Privacy Policy</a>
+              <Link to="/privacy-policy" className="hover:text-sky-400 transition-colors duration-200">Privacy Policy</Link>
               <a href="https://salescentri.com/trust/compliance-certifications" className="hover:text-sky-400 transition-colors duration-200">Terms of Service</a>
               <a href="https://salescentri.com/trust/security-privacy" className="hover:text-sky-400 transition-colors duration-200">Security</a>
               <a href="https://salescentri.com/trust/compliance-certifications" className="hover:text-sky-400 transition-colors duration-200">Certifications</a>
